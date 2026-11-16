@@ -1,7 +1,21 @@
+# Entornos virtuales y cache de Python
+venv/
+.venv/
 __pycache__/
 *.pyc
-venv/
+
+# Credenciales y scripts con contraseña
 .env
+wallet/
+experimentos.ps1
+iniciar.ps1
+detener.ps1
+
+# Archivos generados por el spawner
 boletos/
 bitacora_*.csv
-wallet/
+
+# Editor y sistema
+.vscode/
+.DS_Store
+Thumbs.db
